@@ -1,0 +1,115 @@
+* {
+	margin:0;
+	padding: 0;
+
+}
+
+body{
+	background: #ebebeb;
+}
+
+.container {
+	width: 1100px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.topo {
+
+}
+
+.topo h1{
+	font-size: 80px;
+	text-align: center;
+}
+
+.menu {
+	width: 100%;
+	height: 40px;
+	background:#333;
+	text-align: center;
+}
+
+.menu ul {
+	list-style-type: none;
+}
+
+.menu ul li{
+	display: inline;
+	margin-left: 20px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	line-height: 40px;
+}
+
+.menu ul li a:hover{
+	color: red;
+}
+
+
+.conteudo {
+	width: 100%;
+	height: 100%;
+	background: #222;
+	padding-bottom: 10%;
+}
+
+.conteudo table{
+	width: 96%;
+	margin-left: 2%;
+	margin-right: 2%;	
+}
+
+.conteudo table thead th{
+	font-size: 70px;
+	color: #ffc9c9;
+}
+
+.conteudo table thead td{
+	font-size: 45px;
+	text-align: center;
+	color: #a3a3a3;
+}
+
+.conteudo p{
+	font-size: 20px;
+	margin-left: 5%;
+	color: white;
+	text-align: left;
+}
+
+
+.contador{
+	width:50%;
+	height:250px;
+	margin-left: 25%;
+	background: #3d3d3d;
+	text-align: center;
+	
+	
+}
+
+.contador h2{
+	color: white;
+	font-size: 70px;
+}
+
+.contador h3{
+	color: white;
+}
+
+.rodape {
+	width: 100%;
+	height: 50px;
+	background: #333;
+	text-align:center;
+}
+
+.rodape span{
+	color: #fff;
+	line-height: 50px;
+
+}
